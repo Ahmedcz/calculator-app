@@ -1,0 +1,15 @@
+
+.body{
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 25px;
+}
+.calculator {
+
+    background: black;
+    border-radius: 50px;
+    color: white;
+    height: 1218px;
+    padding: 20px;
+    position: relative;
+    width: 563px;
+}
