@@ -15,9 +15,7 @@ function Button({ onClick, label, type}) {
    else if(type === 'special') {
     buttonStyle = styles.specialButton;
    }
-   else if(type === 'number-0') {
-    buttonStyle = styles.zeroButton;
-   }
+  
 
 
    return (

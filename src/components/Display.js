@@ -7,6 +7,7 @@ function Display({ value }) {
         <div className={styles.display}>
           <span className={styles.displayValue}>{value}</span>
         </div>
+        
     );
 
 }

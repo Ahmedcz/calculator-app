@@ -1,15 +1,22 @@
 
-.body{
-    font-family: "Helvetica Neue", sans-serif;
-    margin: 25px;
-}
+.buttonContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: auto;
+    grid-row-gap: 10px; 
+  }
 .calculator {
-
-    background: black;
-    border-radius: 50px;
-    color: white;
-    height: 1218px;
+    width: 300px;
+    margin: 0 auto;
     padding: 20px;
-    position: relative;
-    width: 563px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #a0acc0fc; 
 }
+  .body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh; 
+    margin: 0;  
+  }
